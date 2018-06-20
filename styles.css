@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.info-bar {
+    height: 2em;
+    width: 100%; 
+    background-color: grey;
+    display: block;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+
+.book-button {
+    border-radius: 100px;
+    border: 1.5px solid white;
+    color:  white;
+    
+    background-color: transparent;
+    padding: 0 .7em 0 .7em;
+}

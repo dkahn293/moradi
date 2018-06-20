@@ -1,0 +1,45 @@
+
+.services-header {
+color: #00AEDE;
+}
+
+.services-list {
+    list-style: none;
+}
+
+.services-list > li{
+    display:inline;
+}
+
+.services-button {
+    border-radius: 100px;
+    border: 2px solid #00AEDE;
+    color:  #00AEDE;
+    
+    background-color: white;
+}
+
+.services-button:hover {
+    background-color: #00AEDE;
+    color: white;
+
+}
+
+.services-button:hover .service-popup {    /* This used to be `.features-menu` */
+  display: flex;                    /* Leave everything else alone */
+  /* flex-direction: column;
+  background: #B2D6FF;
+  ... */
+}
+
+.service-popup {
+    position: absolute;
+    /* Rectangle 6: */
+    background: #FFFFFF;
+    box-shadow: 0 2px 36px 0 rgba(125,125,125,0.50);
+    border-radius: 29px;
+    width: 40em;
+    padding: 5em;
+    display: none;
+
+}
